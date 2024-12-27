@@ -1,0 +1,76 @@
+.contenedorSectionForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.contendorFormulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 15px;
+    gap: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+.rowBotones{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 15px;
+}
+
+.input {
+    background-color: #fafafa;
+    border-radius: 4px;
+    height: 45px;
+    width: 200px;
+}
+
+.input:focus {
+    outline: none;
+    border-color: rgb(148, 255, 196);
+}
+
+select{
+    padding: 0;
+    margin: 0;
+}
+
+.boton{
+    width: 125px;
+    height: 35px;
+    border-radius: 6px;  
+    cursor: pointer;
+}
+
+.cancelar{
+    background-color: rgb(189, 189, 189);
+    color: black;
+}
+
+.guardar{
+    background-color: rgb(79, 185, 255);
+    color: white;
+}
+
+.cancelar:hover{
+    background-color: rgb(165, 164, 164);
+    color: black;
+}
+
+.guardar:hover{
+    background-color: rgb(51, 168, 247);
+    color: white;
+}

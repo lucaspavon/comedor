@@ -1,0 +1,34 @@
+<div class="contenedorSectionForm">
+    <form #altaForm="ngForm" [formGroup]="altaFormulario">
+        <section class="contendorFormulario">
+            <div class="row">
+                <input class="input" type="text" formControlName="descripcion">
+                <input class="input" type="text" formControlName="nombre">
+            </div>
+            <div class="row">
+                <input class="input" type="text" formControlName="tipo">
+                <input class="input" type="text" formControlName="agregados">
+            </div>
+            <div class="row">
+                <input class="input" type="text" formControlName="estado">
+                <input class="input" type="number" formControlName="tiempoPreparacion">
+            </div>
+            <div class="row">
+                <input class="input" type="text" formControlName="fechaPlatoDia">
+                <select class="input" formControlName="fechaPlatoDia">
+                    @for (item of diasDeLaSemana; track $index) {
+                        <option  [value]="item">{{item}}</option>
+                    }
+                </select>
+            </div>
+            <div class="row">
+                <input class="input" type="number" formControlName="stock">
+            </div>
+
+            <div class="rowBotones">
+                <button class="boton cancelar" (click)="limpiarForm()">Cancelar</button>
+                <button class="boton guardar" (click)="guardarForm()">Guardar</button>
+            </div>
+        </section>
+    </form>
+</div>

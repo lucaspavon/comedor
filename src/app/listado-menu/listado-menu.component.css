@@ -1,0 +1,100 @@
+.botonLlamarMenu{
+    width: 150px;
+    height: 55px;
+    border-radius: 6px;
+    background-color: rgb(158, 222, 224);
+    color: black;
+    cursor: pointer;
+}
+
+.botonLlamarMenu:hover{
+    width: 150px;
+    height: 55px;
+    border-radius: 6px;
+    background-color: cadetblue;
+    color: black;
+    cursor: pointer;
+}
+
+.contenedorBoton{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorMenu{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardMenu{
+    width: 40%;
+    border: 2px dashed rgb(163, 241, 196);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.headerCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tipoCard{
+    font-size: 8px;
+    color: black;
+}
+
+.tituloCard{
+    font-size: 14px;
+    color: rgb(104, 250, 36);
+}
+
+.descripcionCard{
+    font-size: 10px;
+    color: black;
+}
+
+.agregadosCard{
+    font-size: 8px;
+    color: gray;
+}
+
+.tiempoCard{
+    font-size: 8px;
+    color: rgb(77, 77, 77);
+}
+.contenedorDeFiltros{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-block: 15px;
+    gap: 25px;
+}
+
+.filtroTipo{
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+.botonBuscar{
+    width: 55px;
+    height: 41px;
+    border-radius: 6px;
+    background-color: rgb(83, 255, 160);
+    color: black;
+    cursor: pointer;
+}
